@@ -1,0 +1,16 @@
+[
+    {
+        "name" : "Camera 1",
+        "url" : 0,
+        "ids" : [
+            {
+                "arucoid" : 0,
+                "bakid" : "A12"
+            },
+            {
+                "arucoid" : 1,
+                "bakid" : "A13"
+            }
+        ]
+    }
+]
