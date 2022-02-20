@@ -16,7 +16,7 @@ config = json.load(open('config.json'))
 
 thread_count = len(config)
 thread_pool_scheduler = ThreadPoolScheduler(thread_count)
-print("thread count is : {0}".format(thread_count))
+print("camera thread count is : {0}".format(thread_count))
 
 def generateCam(x):
     def startCamDetect(observer, scheduler):
